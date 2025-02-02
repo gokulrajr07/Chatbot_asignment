@@ -1,0 +1,83 @@
+/* App.css */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f0f0f0, #d4d4d4);
+  padding: 20px;
+}
+
+.registration-form {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.registration-form:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(135deg, #4caf50, #388e3c);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #45a049, #2e7d32);
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.google-login {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.verification-section {
+  margin-top: 18px;
+}
+
+@media (max-width: 600px) {
+  .registration-form {
+    padding: 18px;
+    max-width: 300px;
+  }
+}

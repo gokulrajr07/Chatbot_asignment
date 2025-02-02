@@ -1,0 +1,59 @@
+/* Scrapping */
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.top-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loader {
+  font-size: 14px;
+  color: #007bff;
+  margin-left: 10px;
+}
+
+.scraping-status table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scraping-status th,
+.scraping-status td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.scraping-status button {
+  background-color: #28a745;
+  color: white;
+}
